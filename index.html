@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Typing Speed Test</title>
+</head>
+<body>
+    <main>
+        <header class="navigation-bar">
+             <nav class="menu">
+                <ul class="menu-list">
+                    <li class="timer"><a href="#timer-sec" class="nav-link">Timer Test</a></li>
+                    <li class="github"><a href="https://github.com/AyaanFarrukh" target="_blank" class="nav-linkgit">My Github</a></li>
+                </ul>
+             </nav>
+        </header>
+        <section class="first-sec">
+            <h2 class="web-tech">Typing Speed Test</h2>
+            <h1 class="head">Test your typing skills</h1>
+            <p class="web-dev-name">Developed By Ayaan Farrukh</p>
+        </section>
+        <hr class="sp-line">
+        <section class="timer-sec" id="timer-sec">
+            <div class="result-box">
+                <p class="score">Your Scores:</p>
+                <div class="results">
+                    <div class="wpm-res"><span class="wpm-count">50</span>
+                        <p class="wpm">WPM</p>
+                    </div>
+                    <div class="acc-res"><span class="acc-count">100%</span>
+                        <p class="acc">ACCURACY</p>
+                    </div>
+                    <div class="cpm-res"><span class="cpm-count">97</span>
+                        <p class="cpm">CPM</p>
+                    </div>
+                </div>
+                <div class="remarks-controls">
+                    <p class="remarks">"Very Well Done! You Will Be So Best In The Future!"</p>
+                    <button class="test-again">Test Again</button>
+                </div>
+            </div>
+            <div class="details-box">
+                <h1 class="timerhead">The Timer Test</h1>
+                <select name="timer-count" id="timer-select">
+                    <option value="1">1 Min</option>
+                    <option value="2">2 Min</option>
+                    <option value="3">3 Min</option>
+                </select>
+            </div>
+            <div class="timer-area">
+                <div class="total-time">1M</div>
+                <div class="total-timeM">1</div>
+                :
+                <div class="total-timeS1st">0</div>
+                :
+                <div class="total-timeS2nd">0</div>
+            </div>
+            <div class="text-area">
+            </div>
+            <input type="text" name="text" class="type-area" autocomplete="off">
+            <div class="controls">
+                <button class="start-timer">Start</button>
+                <button class="reset-test">Reset</button>
+            </div>
+        </section>
+    </main>
+    <script src="./scripts/script.js" type="module"></script>
+</body>
+</html>
