@@ -38,7 +38,7 @@ A modern, responsive typing speed test built with HTML, CSS, and JavaScript. Des
 Clone the repository:
 
 ```bash
-git clone https://github.com/YourUsername/typing-test-app.git
+git clone https://github.com/AyaanFarrukh/typing-speed-test.git
 cd Typing Speed Test
 ```
 
