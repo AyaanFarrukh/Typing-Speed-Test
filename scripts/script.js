@@ -332,7 +332,7 @@ testAgainBtn.addEventListener('click' , ()=> {
    startButton.disabled = false;
    resetBtn.disabled = false;
    seconds = 0;
-
+   inputEl.disabled = true;
    displayTextBox.scrollLeft = 0;
 });
 

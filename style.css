@@ -302,6 +302,10 @@ ul li {
  }
 
 @media screen and (max-width: 768px) {
+    .timer::after,.github::after {
+        display: none;
+        content: '';
+    }
    .head {
     font-size: 3rem;
    }
@@ -346,7 +350,7 @@ ul li {
         margin-right: 30px;
      }
     .head {
-     font-size: 2rem;
+     font-size: 2.5rem;
     }
     .text-area {
      width: 300px;
@@ -367,7 +371,7 @@ ul li {
         gap: 30px;
      }
      .details-box h1{
-         font-size: 2rem;
+         font-size: 3rem;
      }
      .sp-line {
         margin: 40px;
@@ -420,7 +424,7 @@ ul li {
         margin-right: 30px;
      }
     .head {
-     font-size: 2rem;
+     font-size: 2.5rem;
     }
     .text-area {
      width: 300px;
@@ -441,7 +445,7 @@ ul li {
         gap: 30px;
      }
      .details-box h1{
-         font-size: 2rem;
+         font-size: 3rem;
      }
      .sp-line {
         margin: 40px;
@@ -495,14 +499,10 @@ ul li {
         font-size: 15px;
     }
     .head {
-     font-size: 1.5rem;
+     font-size: 2.2rem;
     }
     .menu-list {
         gap: 0px;
-    }
-    .timer::after,.github::after {
-        display: none;
-        content: none;
     }
     .text-area {
      width: 250px;
@@ -526,7 +526,7 @@ ul li {
        display: none;
      }
      .details-box h1{
-         font-size: 2rem;
+         font-size: 3rem;
      }
      .details-box select {
         width: 100px;
